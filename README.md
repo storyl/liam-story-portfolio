@@ -2,6 +2,6 @@
 
 Welcome to the git repo for my portfolio site. 
 
-You can find the live site here: [http://story.lol](http://story.lol)
+This site was built with React, Next.js, and Tailwind CSS. 
 
-Feel free to email me at `storyliam@gmail.com` if you have any questions!
+You can find the live site here: [https://liamstory.dev/](https://liamstory.dev/)

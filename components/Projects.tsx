@@ -30,7 +30,6 @@ function Projects({}: Props) {
                 <div className='flex gap-2 pt-8'>
                 <SiReact size={25} className='text-blue-50'/>
                 <TbBrandNextjs size={25} className='text-blue-50'/>
-                <SiRedux size={25} className='text-blue-50'/>
                 <SiTailwindcss size={25} className='text-blue-50'/>
                 </div>
 
