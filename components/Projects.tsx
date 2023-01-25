@@ -6,9 +6,7 @@ import {MdOutlineWork} from 'react-icons/md'
 import {IoDiamondOutline} from 'react-icons/io5'
 import Link from 'next/link'
 
-type Props = {}
-
-function Projects({}: Props) {
+function Projects() {
 
   const [isShown, setIsShown] = useState(false);
   const [isShownTwo, setIsShownTwo] = useState(false);
@@ -42,7 +40,7 @@ function Projects({}: Props) {
             
             <div className='w-[50%] relative'>
             <Image 
-            src={'/../public/laptop.png'}
+            src={'/cardimage/laptop.png'}
             alt='default image'
             fill
             className='object-contain rounded-r-2xl'
@@ -71,7 +69,7 @@ function Projects({}: Props) {
         <>
             <div className='w-[50%] p-6'>
                     <Image 
-                    src={'/../public/logos/begolialogo.png'}
+                    src={'/logos/begolialogo.png'}
                     alt='default image'
                     height={125}
                     width={125}
@@ -91,7 +89,7 @@ function Projects({}: Props) {
             
             <div className='w-[50%] relative'>
             <Image 
-            src={'/../public/diamondring.png'}
+            src={'/cardimage/diamondring.png'}
             alt='default image'
             fill
             className='object-contain rounded-r-2xl'
@@ -118,7 +116,7 @@ function Projects({}: Props) {
         <>
             <div className='w-[50%] p-6'>
                     <Image 
-                    src={'/../public/logos/nookspacelogo.png'}
+                    src={'/logos/nookspacelogo.png'}
                     alt='default image'
                     height={150}
                     width={150}
@@ -138,7 +136,7 @@ function Projects({}: Props) {
             
             <div className='w-[50%] relative'>
             <Image 
-            src={'/../public/catlol.png'}
+            src={'/cardimage/catlol.png'}
             alt='default image'
             fill
             className='object-contain rounded-r-2xl'
