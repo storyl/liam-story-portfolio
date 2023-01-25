@@ -15,7 +15,7 @@ function Logos({}: Props) {
     
     <div className='hidden md:flex justify-center items-center'>
         <Image 
-                src={'/../public/logos/monologo.png'}
+                src={'/logos/monologo.png'}
                 alt='default image'
                 width={100}
                 height={100}
@@ -25,7 +25,7 @@ function Logos({}: Props) {
 
     <div className='flex justify-center items-center'>
         <Image 
-                src={'/../public/logos/ambrlogo.webp'}
+                src={'/logos/ambrlogo.webp'}
                 alt='default image'
                 width={100}
                 height={100}
@@ -37,7 +37,7 @@ function Logos({}: Props) {
 
     <div className='md:hidden flex justify-center items-center'>
         <Image 
-                src={'/../public/logos/monologo.png'}
+                src={'/logos/monologo.png'}
                 alt='default image'
                 width={100}
                 height={100}
@@ -46,7 +46,7 @@ function Logos({}: Props) {
     </div>
     <div className='md:hidden flex justify-center items-center'>
         <Image 
-                src={'/../public/logos/pimlogo.png'}
+                src={'/logos/pimlogo.png'}
                 alt='default image'
                 width={100}
                 height={100}
@@ -55,7 +55,7 @@ function Logos({}: Props) {
     </div>
     <div className='flex justify-center items-center'>
         <Image 
-                src={'/../public/logos/tatalogo.png'}
+                src={'/logos/tatalogo.png'}
                 alt='default image'
                 width={100}
                 height={100}
@@ -64,7 +64,7 @@ function Logos({}: Props) {
         </div>
         <div className='hidden md:flex justify-center items-center'>
         <Image 
-                src={'/../public/logos/pimlogo.png'}
+                src={'/logos/pimlogo.png'}
                 alt='default image'
                 width={100}
                 height={100}
@@ -73,7 +73,7 @@ function Logos({}: Props) {
     </div>
         <div className='flex justify-center items-center'>
         <Image 
-                src={'/../public/logos/confluxlogo.png'}
+                src={'/logos/confluxlogo.png'}
                 alt='default image'
                 width={120}
                 height={120}
