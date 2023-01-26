@@ -101,7 +101,7 @@ function Projects() {
             //on-hover state
             <div className='flex justify-center items-center'>
                 {/* <h1 className='text-white font-bold text-3xl absolute'>input text here</h1> */}
-                <video className='rounded-2xl object-fill h-[260px] w-[700px]' src={require('/videos/comingsoon.mp4')} autoPlay muted loop />
+                <video className='rounded-2xl object-fill h-[260px] w-[700px]' src={require('../public/videos/comingsoon.mp4')} autoPlay muted loop />
             </div>
         )
         }
@@ -147,7 +147,7 @@ function Projects() {
         : (
             //on-hover state
             <div className='flex justify-center items-center'>
-                <video className='rounded-2xl object-fill h-[260px] w-[700px]' src={require('/videos/comingsoon.mp4')} autoPlay muted loop />
+                <video className='rounded-2xl object-fill h-[260px] w-[700px]' src={require('../public/videos/nookspace.mp4')} autoPlay muted loop />
             </div>
         )
         }
