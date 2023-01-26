@@ -4,6 +4,7 @@ import {TbBrandNextjs} from 'react-icons/tb'
 import {SiTailwindcss, SiReact, SiGithub, SiShopify, SiTypescript, SiGraphql, SiAdobeaftereffects, SiAdobephotoshop, SiAdobeillustrator, SiRedux} from 'react-icons/si'
 import {MdOutlineWork} from 'react-icons/md'
 import {IoDiamondOutline} from 'react-icons/io5'
+import {HiBuildingOffice2} from 'react-icons/hi2'
 import Link from 'next/link'
 
 function Projects() {
@@ -136,10 +137,10 @@ function Projects() {
             
             <div className='w-[50%] relative'>
             <Image 
-            src={'/cardimage/catlol.png'}
+            src={'/cardimage/chair.png'}
             alt='default image'
             fill
-            className='object-contain rounded-r-2xl'
+            className='object-contain rounded-r-2xl p-8'
             />
             </div>
         </> 
