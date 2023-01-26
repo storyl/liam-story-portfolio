@@ -61,7 +61,7 @@ function Projects() {
     </div>
     </Link>
 
-    <Link href="https://begolia.com"> 
+    
     <div onMouseEnter={() => setIsShownTwo(true)} onMouseLeave={() => setIsShownTwo(false)} className='hover:scale-105 transition-all ease-linear duration-300 col-span-1 flex flex-row shadow-2xl w-full h-[260px] bg-gradient-to-r from-green-500 to-emerald-500 m-auto rounded-2xl'>
         {!isShownTwo 
         ? (
@@ -100,15 +100,15 @@ function Projects() {
         : (
             //on-hover state
             <div className='flex justify-center items-center'>
-                <h1 className='text-white font-bold text-3xl absolute animate-spin'>Party Time</h1>
-                <video className='rounded-2xl object-fill h-[260px] w-[700px]' src={require('../public/twerkingcat.mp4')} autoPlay muted loop />
+                {/* <h1 className='text-white font-bold text-3xl absolute'>input text here</h1> */}
+                <video className='rounded-2xl object-fill h-[260px] w-[700px]' src={require('/videos/comingsoon.mp4')} autoPlay muted loop />
             </div>
         )
         }
     </div>
-    </Link>
+   
 
-    <Link href="https://nookspace.com"> 
+ 
     <div onMouseEnter={() => setIsShownThree(true)} onMouseLeave={() => setIsShownThree(false)} className='hover:scale-105 transition-all ease-linear duration-300 col-span-1 flex flex-row shadow-2xl w-full h-[260px] bg-gradient-to-r from-gray-500 to-slate-500 m-auto rounded-2xl'>
         {!isShownThree 
         ? (
@@ -147,12 +147,11 @@ function Projects() {
         : (
             //on-hover state
             <div className='flex justify-center items-center'>
-                <video className='rounded-2xl object-fill h-[260px] w-[700px]' src={require('../public/nooky.mp4')} autoPlay muted loop />
+                <video className='rounded-2xl object-fill h-[260px] w-[700px]' src={require('/videos/comingsoon.mp4')} autoPlay muted loop />
             </div>
         )
         }
     </div>
-    </Link>
     
     </div>
   )
