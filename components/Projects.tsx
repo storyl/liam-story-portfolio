@@ -101,14 +101,17 @@ function Projects() {
         )
         : (
             //on-hover state
-            <div className='flex justify-center items-center'>
+            <div className='group flex justify-center items-center'>
                 {/* <h1 className='text-white font-bold text-3xl absolute'>input text here</h1> */}
                 <video className='rounded-2xl object-cover h-[260px] w-[700px]'
-                 src={require('../public/videos/comingsoon.mp4')} 
+                 src={require('../public/videos/begolia.mp4')} 
                  autoPlay 
                  muted 
                  loop
                  playsInline />
+                 <span className='group-hover:scale-100 absolute w-auto p-2 m-2 min-w-max -top-6 rounded-md shadow-md text-white bg-violet-300 text-xs font-bold tranisition-all ease-linear duration-300 scale-0'>
+                 Coming soon...
+                </span>
             </div>
         )
         }
@@ -153,7 +156,7 @@ function Projects() {
         )
         : (
             //on-hover state
-            <div className='flex justify-center items-center'>
+            <div className='group flex justify-center items-center'>
                 <video className='rounded-2xl object-cover h-[260px] w-[700px]' 
                 src={require('../public/videos/nookspace.mp4')} 
                 autoPlay 
@@ -161,6 +164,9 @@ function Projects() {
                 loop
                 playsInline
                 />
+                 <span className='group-hover:scale-100 absolute w-auto p-2 m-2 min-w-max -top-6 rounded-md shadow-md text-white bg-slate-500 text-xs font-bold tranisition-all ease-linear duration-300 scale-0'>
+                 Coming soon...
+                </span>
             </div>
         )
         }
