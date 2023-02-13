@@ -1,11 +1,13 @@
 import {useState} from 'react'
 import Image from 'next/image'
 import {TbBrandNextjs} from 'react-icons/tb'
-import {SiTailwindcss, SiVercel, SiReact, SiGithub, SiFirebase, SiShopify, SiTypescript, SiGraphql, SiAdobeaftereffects, SiAdobephotoshop, SiAdobeillustrator, SiRedux} from 'react-icons/si'
+import {SiTailwindcss, SiReact, SiGithub, SiFirebase, SiShopify, SiTypescript, SiGraphql, SiAdobeaftereffects, SiAdobephotoshop, SiAdobeillustrator} from 'react-icons/si'
 import {MdOutlineWork} from 'react-icons/md'
+import {BiLinkExternal} from 'react-icons/bi'
 import {IoDiamondOutline} from 'react-icons/io5'
-import {HiBuildingOffice2} from 'react-icons/hi2'
+import {BsFillPlayBtnFill} from 'react-icons/bs'
 import Link from 'next/link'
+
 
 function Projects() {
 
@@ -30,15 +32,15 @@ function Projects() {
                 <h1 className='text-white font-bold md:text-xl pt-2'>Portfolio Site</h1>
                 <p className='text-white text-md pt-3 flex items-center underline underline-offset-[6px]'>View Code <SiGithub size={20} className='ml-2'/></p>
                 <div className='flex gap-2 pt-12'>
-                <SiReact size={25} className='text-blue-50'/>
-                <TbBrandNextjs size={25} className='text-blue-50'/>
-                <SiTailwindcss size={25} className='text-blue-50'/>
+                <SiReact size={25} className='text-white'/>
+                <TbBrandNextjs size={25} className='text-white'/>
+                <SiTailwindcss size={25} className='text-white'/>
                 </div>
 
                 <div className='flex gap-2 pt-4'>
-                <SiAdobeaftereffects size={25} className='text-blue-50'/>
-                <SiAdobephotoshop size={25} className='text-blue-50'/>
-                <SiAdobeillustrator size={25} className='text-blue-50'/>
+                <SiAdobeaftereffects size={25} className='text-white'/>
+                <SiAdobephotoshop size={25} className='text-white'/>
+                <SiAdobeillustrator size={25} className='text-white'/>
                 </div>
             </div>
             
@@ -73,18 +75,18 @@ function Projects() {
             //default state
         <>
             <div className='w-[50%] p-6'>
-            <h1 className='text-white font-bold md:text-xl pt-2 whitespace-nowrap'>ChatGPT Clone</h1>
-                <p className='text-white text-md pt-3 flex items-center underline underline-offset-[6px]'>See Demo <SiVercel size={20} className='ml-2'/></p>
+            <h1 className='text-black font-bold md:text-xl pt-2 whitespace-nowrap'>ChatGPT Clone</h1>
+                <p className='text-black text-md pt-3 flex items-center underline underline-offset-[6px]'>View Demo <BiLinkExternal size={20} className='ml-2'/></p>
                 <div className='flex gap-2 pt-12'>
-                <SiReact size={25} className='text-blue-50'/>
-                <SiTypescript size={25} className='text-blue-50'/>
-                <TbBrandNextjs size={25} className='text-blue-50'/>
-                <SiFirebase size={25} className='text-blue-50'/>
-                <SiTailwindcss size={25} className='text-blue-50'/>
+                <SiReact size={25} className='text-black'/>
+                <SiTypescript size={25} className='text-black'/>
+                <TbBrandNextjs size={25} className='text-black'/>
+                <SiFirebase size={25} className='text-black'/>
+                <SiTailwindcss size={25} className='text-black'/>
                 
                 </div>
 
-                <div className='flex gap-2 pt-4 invert'>
+                <div className='flex gap-2 pt-4'>
                     <Image 
                     src={'/logos/openailogo.png'}
                     alt='default image'
@@ -126,12 +128,12 @@ function Projects() {
         <>
             <div className='w-[50%] p-6'>
             <h1 className='text-white font-bold md:text-xl pt-2 whitespace-nowrap'>NFT Marketplace</h1>
-                <p className='text-white text-md pt-3 flex items-center underline underline-offset-[6px]'>See Demo <SiVercel size={20} className='ml-2'/></p>
+                <p className='text-white text-md pt-3 flex items-center underline underline-offset-[6px]'>View Demo <BiLinkExternal size={20} className='ml-2'/></p>
                     <div className='flex gap-2 pt-12'>
-                    <SiReact size={25} className='text-blue-50'/>
-                    <SiTypescript size={25} className='text-blue-50'/>
-                    <TbBrandNextjs size={25} className='text-blue-50'/>
-                    <SiTailwindcss size={25} className='text-blue-50'/>
+                    <SiReact size={25} className='text-white'/>
+                    <SiTypescript size={25} className='text-white'/>
+                    <TbBrandNextjs size={25} className='text-white'/>
+                    <SiTailwindcss size={25} className='text-white'/>
                     </div>
 
                     <div className='flex gap-2 pt-4'>
@@ -180,14 +182,14 @@ function Projects() {
                     alt='default image'
                     height={125}
                     width={125}
-                    className='pt-1'
+                    className='pt-1 invert'
                     />
-                <p className='text-white text-md pt-3 flex items-center underline underline-offset-[6px]'>View Store <IoDiamondOutline size={20} className='ml-2'/></p>
+                <p className='text-black text-md pt-3 flex items-center underline underline-offset-[6px]'>View Store <IoDiamondOutline size={20} className='ml-2'/></p>
                 <div className='flex gap-2 pt-[105px]'>
-                <SiReact size={25} className='text-blue-50'/>
-                <SiShopify size={25} className='text-blue-50'/>
-                <SiGraphql size={25} className='text-blue-50'/>
-                <SiTailwindcss size={25} className='text-blue-50'/>
+                <SiReact size={25} className='text-black'/>
+                <SiShopify size={25} className='text-black '/>
+                <SiGraphql size={25} className='text-black '/>
+                <SiTailwindcss size={25} className='text-black'/>
   
                 </div>
 
@@ -283,9 +285,12 @@ function Projects() {
         ? (
             //default state
         <>
-            <div className='flex flex-col z-20'>
+            <div className='flex flex-col '>
             <h1 className='text-black font-bebasfont -rotate-[5deg] font-bold text-6xl -skew-x-[7deg] uppercase tracking-wider'>Motion</h1>
             <h1 className='text-black font-bebasfont -rotate-[5deg] font-bold text-6xl -skew-x-[7deg] uppercase tracking-wider'>Design</h1>
+            <div className='flex justify-center items-center'>
+            <BsFillPlayBtnFill size={30} className='flex -rotate-[5deg] text-black animate-pulse pt-1' />
+            </div>
             </div>
         </> 
         )
