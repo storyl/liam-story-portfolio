@@ -22,7 +22,7 @@ function Projects() {
     
     <div className='grid xl:grid-cols-3 md:grid-cols-2 gap-20 p-8 pt-20 pb-40'>
 
-    <Link href="https://github.com/storyl/liam-story-portfolio">   
+    <Link href="https://github.com/storyl/liam-story-portfolio" rel="noopener noreferrer" target="_blank">   
     <div onMouseEnter={() => setPortfolio(true)} onMouseLeave={() => setPortfolio(false)} className='cursor-pointer hover:scale-105 transition-all ease-linear duration-300 col-span-1 flex flex-row shadow-2xl w-full h-[260px] bg-gradient-to-r from-cyan-500 to-cyan-400 m-auto rounded-2xl'>
         {!isPortfolioShown 
         ? (
@@ -68,7 +68,7 @@ function Projects() {
     </div>
     </Link>
 
-    <Link href="https://chatgpt-clone-lake.vercel.app/">   
+    <Link href="https://chatgpt-clone-lake.vercel.app/" rel="noopener noreferrer" target="_blank">   
     <div onMouseEnter={() => setIsShownFive(true)} onMouseLeave={() => setIsShownFive(false)} className='cursor-pointer hover:scale-105 transition-all ease-linear duration-300 col-span-1 flex flex-row shadow-2xl w-full h-[260px] bg-gradient-to-r from-lime-500 to-lime-400 m-auto rounded-2xl'>
         {!isShownFive
         ? (
@@ -120,7 +120,7 @@ function Projects() {
     </div>
     </Link>
 
-    <Link href="https://non-fungible-haven.vercel.app/">   
+    <Link href="https://non-fungible-haven.vercel.app/" rel="noopener noreferrer" target="_blank">   
     <div onMouseEnter={() => setIsShownFour(true)} onMouseLeave={() => setIsShownFour(false)} className='cursor-pointer hover:scale-105 transition-all ease-linear duration-300 col-span-1 flex flex-row shadow-2xl w-full h-[260px] bg-gradient-to-r from-violet-500 to-violet-400 m-auto rounded-2xl'>
         {!isShownFour 
         ? (
@@ -208,7 +208,7 @@ function Projects() {
         )
         : (
             //on-hover state
-            <div className='group flex justify-center items-center'>
+            <div className='group flex justify-center items-center cursor-not-allowed'>
                 
                 <video className='rounded-2xl object-cover h-[260px] w-[700px]'
                  src={require('../public/videos/begolia.mp4')} 
@@ -225,7 +225,7 @@ function Projects() {
     </div>
     
 
- 
+    <Link href='https://nookspace.vercel.app/' rel="noopener noreferrer" target="_blank">
     <div onMouseEnter={() => setIsShownThree(true)} onMouseLeave={() => setIsShownThree(false)} className='hover:scale-105 transition-all ease-linear duration-300 col-span-1 flex flex-row shadow-2xl w-full h-[260px] bg-gradient-to-r from-rose-500 to-rose-400 m-auto rounded-2xl'>
         {!isShownThree 
         ? (
@@ -272,12 +272,13 @@ function Projects() {
                 playsInline
                 />
                  <span className='group-hover:scale-100 absolute w-auto p-2 m-2 min-w-max -top-6 rounded-md shadow-md text-white bg-slate-500 text-xs font-bold tranisition-all ease-linear duration-300 scale-0'>
-                 Coming soon...
+                 ✨ Click to visit demo ✨
                 </span>
             </div>
         )
         }
     </div>
+    </Link>
 
     <Link href="/">   
     <div onMouseEnter={() => setIsShownSix(true)} onMouseLeave={() => setIsShownSix(false)} className='cursor-pointer hover:scale-105 transition-all ease-linear duration-300 flex justify-center items-center w-full h-[260px]  m-auto rounded-2xl'>
